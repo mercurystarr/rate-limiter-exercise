@@ -98,7 +98,7 @@ This project depends the following libraries:
 - add better validation when parsing the config file, are there any path patterns that we have not accounted for?
 - better error handling and more logging.
 
-### Problems with submitting to assignement to Code Signal
+### Problems with submitting to work to Code Signal
 - I am unable to update main.spec.js, the file is readonly and the import for `const app = require('../main');` needs to be updated to `const app = require('./src/app')` in order for that test to pass
 - My tests are hanging after completion, the problem seems to be related to fs.readFileSync not closing file handlers properly? From my research there are two ways to resolve this:
 1. to use test library called `supertest`
